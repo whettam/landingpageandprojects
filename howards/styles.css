@@ -1,0 +1,156 @@
+@font-face {
+    font-family: western;
+    src: url(fonts/BeardbonePersonalUse-w1Ge9.ttf);
+}
+@font-face {
+    font-family: lake;
+    src: url(fonts/LakesightPersonalUseOnly-vJy9.ttf);
+}
+
+
+/* background and body */
+
+body {
+    background-image: url(images/fishpainting.jpg);
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+/* logo and contact info */
+.topsection {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    opacity: .80;
+    font-family:'Times New Roman', Times, serif;
+    padding-bottom: 1px;
+}
+
+h3 {
+    font-size: 4em;
+    font-family: western;
+    position: relative;
+    bottom: 10px;
+}
+
+/* first images and list of products */
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.firstsection {
+    margin-top: 9px;
+    background-color: rgb(255, 255, 255);
+    opacity: .80;
+    font-size: 2em;
+    font-family: lake;
+    text-align: center;
+    margin:auto;
+    border-radius: 20px 20px 20px 20px;
+    text-decoration: underline;
+}
+/* bait section */
+
+.leftoftable {
+    border: 1px black solid;
+}
+
+.rightoftable {
+    border: 1px solid black;
+}
+
+table {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    margin: auto;
+    margin-top: 1px;
+}
+
+tr {
+    font-family:'Times New Roman', Times, serif;
+}
+
+th {
+    font-size: 2.5em;
+}
+
+td {
+    font-size: 1.5em;
+}
+.baitsection {
+    opacity: .80;
+}
+.prices {
+    font-style: italic;
+}
+
+.photos {
+    text-align: center;
+}
+
+.happy {
+    font-family: lake;
+    font-size: 4em;
+    color: white;
+}
+
+.earl {
+    border: 1px solid black;
+    text-align: right;
+    background-color: white;
+    opacity: .90;
+}
+
+.jim {
+  border: 1px solid black;
+  text-align: left;
+  background-color: white;
+  opacity: .90;
+}
+
+.suzy {
+  border: 1px solid black;
+  text-align: left;
+  background-color: white;
+  opacity: .90;
+}
+
+.icons {
+    margin-top: 2px;
+    font-size: 2em;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    opacity: .90;
+}
+
+@media screen and (max-width: 1233px) {
+
+.firstsection {
+    margin: auto;
+}
+
+.howardsstore {
+    display: none;
+}
+}
+
+@media screen and (max-width: 539px) {
+    .lakesidelogo {
+        width: 400px;
+    }
+}

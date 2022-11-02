@@ -1,0 +1,111 @@
+@font-face {
+    font-family: cuphead;
+    src: url(Fonts/ChailceNogginRegular-2OXoW.ttf);
+}
+
+@font-face {
+    font-family: rose;
+    src: url(Fonts/RosmatikaRegular-BWA45.ttf);
+}
+
+@font-face {
+    font-family: night;
+    src: url(Fonts/NightForest-eZnRg.otf);
+}
+
+@font-face {
+    font-family: desdog;
+    src: url(Fonts/futur2.ttf);
+}
+
+@font-face {
+    font-family: age;
+    src: url(Fonts/Agelast-mLlAm.otf);
+}
+
+body {
+    /* background-color: #efdc75; */
+    background-image: url(images/space.jpg);
+    background-size: cover;
+}
+
+header {
+    background-image: url(images/vow.jpg);
+    background-position: 10%;
+    background-size: cover;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    font-family: age;
+    letter-spacing: 12px;
+    text-align: right;
+    position: sticky;
+    top: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-size: 2.5em;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20%;
+    color: whitesmoke;
+    font-family: age;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: whitesmoke;
+    font-family: age;
+    font-size: 1em;
+    letter-spacing: 6px;
+    font-style: italic;
+}
+
+.navlinks,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: rgb(8, 37, 23);
+}
+
+a.sagan {
+    color: whitesmoke;
+    
+}
+
+#projectslink {
+    padding-right: 100px;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+.grass {
+    display: block;
+    margin: auto;
+    margin-top: 250px;
+    border: 2px darkcyan;
+    opacity: .90;
+    border-style: groove;
+    border-radius: 70%;
+    width: 500px;
+    height: 500px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-family: night;
+    font-size: 25px;
+    color: whitesmoke;
+}
